@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+    <title>Formulario</title>
+  </head>
+
+  <body>
+    <h1 align="center">Formulario</h1>
+    <form action="formulario.php" method="post">
+      <fieldset>
+        <legend>Formulario de opinión</legend>
+      <p><label>Nombre: <input type="text" name="nombre" size="50"></label></p>
+        <p>¿Cuál ha sido su reacción de nuestra página web?<br>
+        <input type= "radio" name="reaccion" value="1">Muy Buena
+        <input type= "radio" name="reaccion" value="2">Buena
+        <input type= "radio" name="reaccion" value="3">Media
+        <input type= "radio" name="reaccion" value="4">Mala</p>
+        <p><label>¿Cual es tu comida favorita?<input type="text" name="comida" size="50"></label></p>
+      <p><label>Opinión: <textarea name="opinion" rows="5" cols="50">Escriba su opinión aquí: </textarea></label></p>
+      <p><input type="submit" value="Enviar">
+      <input type="reset" value="Reiniciar"></p>
+        </fieldset>
+    </form>
+     <br><a href="index.html">Volver a inicio</a>
+  </body>
